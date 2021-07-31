@@ -78,10 +78,10 @@ footer-text: Copyright (c) 2019 powerby Patrick
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
   clientID: 25b501a1717be0442c3c
-  clientSecret: f9eb4d6e6d08fbc0bb9a104e183d1bbbf1859682 #72a79a04bfc44c490c982a852e92872a519276a1
-  repo: https://github.com/patrick60814/beforbad.github.io
+  clientSecret: f9eb4d6e6d08fbc0bb9a104e183d1bbbf1859682    #72a79a04bfc44c490c982a852e92872a519276a1
+  repo: beforbad.github.io
   owner: patrick60814
-  proxy: https://cors-anywhere.azm.workers.dev/
+  proxy: 
 
 # 输入Google Analytics web tracking code
 google_analytics:
