@@ -81,7 +81,7 @@ gitalk:
   clientSecret: f9eb4d6e6d08fbc0bb9a104e183d1bbbf1859682 #72a79a04bfc44c490c982a852e92872a519276a1
   repo: https://github.com/patrick60814/beforbad.github.io
   owner: patrick60814
-  proxy: 
+  proxy: https://cors-anywhere.azm.workers.dev/
 
 # 输入Google Analytics web tracking code
 google_analytics:
