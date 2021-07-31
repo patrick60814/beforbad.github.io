@@ -79,15 +79,15 @@ disqus: #loffer #shortname
 gitalk:
   clientID: 25b501a1717be0442c3c
   clientSecret: 72a79a04bfc44c490c982a852e92872a519276a1
-  repo: beforbad.github.io
+  repo: https://github.com/patrick60814/beforbad.github.io
   owner: patrick60814
-  proxy:
+  proxy: 
 
 # 输入Google Analytics web tracking code
 google_analytics:
 
 utteranc:
-  repo: # Your github repo path, also see: https://utteranc.es
+  repo: https://github.com/patrick60814/beforbad.github.io# Your github repo path, also see: https://utteranc.es
 
 #
 # !! 以下所有设置都不需要更改 !!
