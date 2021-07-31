@@ -73,7 +73,7 @@ footer-text: Copyright (c) 2019 powerby Patrick
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-disqus: #loffer #shortname
+# disqus: #loffer #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
@@ -87,7 +87,7 @@ gitalk:
 google_analytics:
 
 utteranc:
-  repo: https://github.com/patrick60814/beforbad.github.io # Your github repo path, also see: https://utteranc.es
+  repo: # Your github repo path, also see: https://utteranc.es
 
 #
 # !! 以下所有设置都不需要更改 !!
