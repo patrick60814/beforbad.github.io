@@ -87,7 +87,7 @@ gitalk:
 google_analytics:
 
 utteranc:
-  repo: https://github.com/patrick60814/beforbad.github.io# Your github repo path, also see: https://utteranc.es
+  repo: https://github.com/patrick60814/beforbad.github.io # Your github repo path, also see: https://utteranc.es
 
 #
 # !! 以下所有设置都不需要更改 !!
