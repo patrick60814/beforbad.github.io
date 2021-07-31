@@ -79,9 +79,9 @@ footer-text: Copyright (c) 2019 powerby Patrick
 gitalk:
   clientID: 25b501a1717be0442c3c
   clientSecret: 72a79a04bfc44c490c982a852e92872a519276a1
-  repo: https://github.com/patrick60814/beforbad.github.io
+  repo: beforbad.github.io
   owner: patrick60814
-  proxy: 
+  proxy: 31.40.1.18:80
 
 # 输入Google Analytics web tracking code
 google_analytics:
