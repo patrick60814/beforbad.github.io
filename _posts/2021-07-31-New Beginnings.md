@@ -9,18 +9,17 @@ comments: true
 toc: true
 ---
 
-# 此blog的由来
-
-```php+HTML
-2021-07-30上班的时候摸鱼在网上瞎逛，在youtube上看到一个频道朱的简介里有个人blog，就点击去看了看，然后就就被他的blog <https://siemenstutorials.pw/https://siemenstutorials.pw/>吸引住了，真不错然后就开始研究这个blog怎么搭建的，就发现了github pag了
+2021-07-30上班的时候摸鱼在网上瞎逛，在youtube上看到一个频道朱的简介里有个人blog，就点击去看了看，然后就就被他的[blog](https://siemenstutorials.pw/https://siemenstutorials.pw/)吸引住了，真不错然后就开始研究这个blog怎么搭建的，就发现了github pag了
 然后就开始了我的blog。
-```
 
-## 实现过程
 
-[github Pag]: https://pages.github.com/	"githubPag"
-[hexo]: https://hexo.io/zh-cn/	"hexo"
-[jekyll]: http://jekyllcn.com/	"jekyll"
+### 实现过程
+
+[github pag](https://pages.github.com/)
+
+[hexo](https://hexo.io/zh-cn/ )
+
+[jekyll](http://jekyllcn.com/ )
 
 知道githubpag使用的是静态网页后，就纠结一个问题，怎么实现写的blog页面更新到网站？难道每次都去改index页面吗 ，后来发现原来可以使用Markdown来写，主页直接调用，然后就发现了 hexo和Jekyll两个工具了，真不错。
 
