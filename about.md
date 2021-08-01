@@ -33,7 +33,7 @@ permalink: /about/
 ## My Skills Tree
 
 ```
-◾ HTML/CSS/JS 					◾ Python
+◾ HTML/CSS/JS 					◾ python
 
 ◾ .net							◾ PHOTOSHOP
 
