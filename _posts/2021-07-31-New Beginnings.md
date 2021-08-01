@@ -21,6 +21,8 @@ toc: true
 
 [jekyll](http://jekyllcn.com/ )
 
+[留言功能](https://valine.js.org/)
+
 知道githubpag使用的是静态网页后，就纠结一个问题，怎么实现写的blog页面更新到网站？难道每次都去改index页面吗 ，后来发现原来可以使用Markdown来写，主页直接调用，然后就发现了 hexo和Jekyll两个工具了，真不错。
 
 说下我对这两个工具的看法吧
