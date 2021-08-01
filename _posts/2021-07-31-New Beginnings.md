@@ -6,6 +6,7 @@ Author: Patrick
 tags: [Blog, start, 闲记]
 categories: 闲记
 comments: true
+toc: true
 ---
 LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用`$$`标明，内联公式则用`$`. 
 
