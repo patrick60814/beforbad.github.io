@@ -20,7 +20,7 @@ permalink: /about/
 
 ## GitHub
 
-◾  https://github.com/patrick60814/beforbad.github.io
+◾  <https://github.com/patrick60814/beforbad.github.io>
 
 ## Contact & Social
 
