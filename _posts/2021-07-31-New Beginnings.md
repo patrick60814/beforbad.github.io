@@ -8,43 +8,27 @@ categories: 闲记
 comments: true
 toc: true
 ---
-LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用`$$`标明，内联公式则用`$`. 
 
-最好不要让公式出现在文章摘要里。
+# 此blog的由来
 
-Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为`<!-- more -->`，并且加入了首页摘要的字符数限制。
-
-因此有特殊符号、内容的文章，建议将这些内容折叠在摘要以下。例如本文
-
-<!-- more -->
-
-Block math test
-
-```
-$$
-\begin{align*}
-y = y(x,t) &= A e^{i\theta} \\
-&= A (\cos \theta + i \sin \theta) \\
-&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*}
-$$
-
+```php+HTML
+2021-07-30上班的时候摸鱼在网上瞎逛，在youtube上看到一个频道朱的简介里有个人blog，就点击去看了看，然后就就被他的blog <https://siemenstutorials.pw/https://siemenstutorials.pw/>吸引住了，真不错然后就开始研究这个blog怎么搭建的，就发现了github pag了
+然后就开始了我的blog。
 ```
 
-$$
-\begin{align*}
-y = y(x,t) &= A e^{i\theta} \\
-&= A (\cos \theta + i \sin \theta) \\
-&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*}
-$$
+## 实现过程
 
-Inline math test `$\lim_{x \to \infty} \exp(-x) = 0$`, 
-$\lim_{x \to \infty} \exp(-x) = 0$
+[github Pag]: https://pages.github.com/	"githubPag"
+[hexo]: https://hexo.io/zh-cn/	"hexo"
+[jekyll]: http://jekyllcn.com/	"jekyll"
+
+知道githubpag使用的是静态网页后，就纠结一个问题，怎么实现写的blog页面更新到网站？难道每次都去改index页面吗 ，后来发现原来可以使用Markdown来写，主页直接调用，然后就发现了 hexo和Jekyll两个工具了，真不错。
+
+说下我对这两个工具的看法吧
+
+​	刚开始是想着使用hexo的，因为hexo里的主题模板多，而且好看，但是后来发现，他没有_post文件夹，只能每次在本地写，然后在 hexo g 生成静态页面，在hexo d 到github上，这就很烦，还要生存静态页面才可以，果断放弃。jekyll虽然模板没有hexo多，但是方便啊，而且纯静态页面，有点html基础的还是可以自己diy一下的。
+
+​	Jekyll是github官方提供的，blog可以直接写到_post目录下，就可以了，这就很方便。
+
+​	然后就是找jekyll的主题了，你可以在这里找到[jekyll](http://jekyllthemes.org/) 使用的话每个主题的GitHub页面都有，原理很简单，纯静态页面，你只需要把喜欢的主题pull到你本地，然后上传到你的github上，主要修改_config.yml文件，把里面的内容修改成你自己的。
 
