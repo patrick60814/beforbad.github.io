@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: sqlmap常用命令
 date: 2021-08-01
 Author: 南念
