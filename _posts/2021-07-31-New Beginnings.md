@@ -12,7 +12,7 @@ toc: true
 2021-07-30上班的时候摸鱼在网上瞎逛，在youtube上看到一个频道朱的简介里有个人blog，就点击去看了看，然后就就被他的[blog](https://siemenstutorials.pw/https://siemenstutorials.pw/)吸引住了，真不错然后就开始研究这个blog怎么搭建的，就发现了github pag了
 然后就开始了我的blog。
 
-
+<!-- more -->
 ### 实现过程
 
 [github pag](https://pages.github.com/)

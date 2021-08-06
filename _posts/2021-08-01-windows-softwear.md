@@ -14,7 +14,7 @@ categories: 软件
 ## windos好用的软件
 
 
-
+<!-- more -->
 - Hbuild
 
 - google浏览器

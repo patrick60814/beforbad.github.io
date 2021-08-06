@@ -11,7 +11,7 @@ categories: 渗透
 ## sql常用命令
 
 #### ASP网站监测方法
-
+<!-- more -->
 ```sh
 sqlmap -u "http://xxxx.com/home/login.asp?id=10"	-u 检测是否存在注入
 
