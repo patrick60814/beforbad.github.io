@@ -6,7 +6,7 @@
 # Site
 title: 南念
 subtitle:
-description:
+description: 改变不了就接受吧。
 author: Patrick G
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -15,11 +15,11 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
-baseurl:
+baseurl: /beforbad.github.io
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 6
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -407,7 +407,7 @@ wildfire:
     siteId:
   # other configs
   theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
+  locale: zh-CN # or other locales, e.g. zh-CN
   defaultAvatarURL: 
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
