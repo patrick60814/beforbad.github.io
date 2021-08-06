@@ -8,10 +8,10 @@
   background: $black-deep;
 
   @include tablet() {
-    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    box-shadow: 0 0 16px rgba(73, 200, 132, 1.0);
   }
   @include mobile() {
-    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    box-shadow: 0 0 16px rgba(73, 200, 132, 1.0);
   }
 }
 
