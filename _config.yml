@@ -217,7 +217,7 @@ social:
   #LinkLabel: Link
   Github: https://github.com/patrick60814
   telegram: https://t.me/patrick60814
-  Email: patrick60814@163.com
+  Email: mailto:patrick60814@163.com
 
 
 # Social Links Icons
@@ -232,7 +232,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  telegram: fa-telegram
+  telegram: fa-telegram:before
   Email: fa-envelope-o
   
 
