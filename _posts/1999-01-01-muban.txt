@@ -1,3 +1,10 @@
+---
+layout: post
+title: blog头部示例
+date: 2021-08-02
+Author: 南念
+---
+
 
 layout: post	
 
