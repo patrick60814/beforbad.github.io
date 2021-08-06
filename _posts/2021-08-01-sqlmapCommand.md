@@ -5,7 +5,7 @@ date: 2021-08-01
 Author: 南念
 tags: [sqlmap, 渗透]
 comments: true
-
+categories: 渗透
 ---
 
 ## sql常用命令

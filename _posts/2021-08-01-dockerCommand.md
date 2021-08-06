@@ -6,6 +6,7 @@ Author: 南念
 tags: [docker, Command]
 comments: true
 pinned: true
+categories: 技术
 ---
 
 

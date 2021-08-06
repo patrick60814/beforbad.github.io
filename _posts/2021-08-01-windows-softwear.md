@@ -6,6 +6,7 @@ Author: 南念
 tags: [softwear, 装机]
 comments: true
 toc: true
+categories: 软件
 ---
 
 
