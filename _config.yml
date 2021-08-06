@@ -87,7 +87,7 @@ keywords: "blog"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2021
 
 # icon between year and author @Footer
 authoricon: heart
@@ -122,8 +122,8 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
-  commonweal: /404.html
+  #sitemap: /sitemap.xml
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -256,8 +256,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
