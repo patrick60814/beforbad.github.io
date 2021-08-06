@@ -21,8 +21,6 @@ categories: 软件
 
 - Intellig IDEA
 
-  <!--more-->
-
 - IDM
 
 - node.js
