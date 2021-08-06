@@ -232,8 +232,8 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  telegram: fa-telegram:before
-  Email: fa-envelope-o
+  telegram: telegram
+  Email: envelope
   
 
 # Sidebar Avatar
