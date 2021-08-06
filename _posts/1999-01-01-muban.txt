@@ -1,0 +1,25 @@
+
+layout: post	
+
+type: photo
+title: 	模板
+date: 1999-01-01 00:00:00
+category: Photo
+photos:
+- http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg
+tags:	标签
+
+image: http://gastonsanchez.com/images/blog/mathjax_logo.png		首页不展开显示图片
+
+
+
+
+description: 简洁内容
+
+tags: [resources, jekyll]		在文章下面显示
+
+categories:		在标题下面显示
+- Foo
+- Bar
+- Baz
+
