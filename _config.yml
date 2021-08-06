@@ -286,11 +286,13 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  Fontawesome: http://www.fontawesome.com.cn/
+  Theme-next: http://theme-next.simpleyyt.com/
+  Disqus: https://disqus.com/
 
 
 # ---------------------------------------------------------------
