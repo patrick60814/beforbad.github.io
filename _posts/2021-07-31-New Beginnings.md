@@ -13,7 +13,7 @@ toc: true
 然后就开始了我的blog。
 
 <!-- more -->
-### 实现过程
+### 相关链接
 
 [github pag](https://pages.github.com/)
 
