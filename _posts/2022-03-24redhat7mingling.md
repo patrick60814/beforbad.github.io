@@ -123,5 +123,58 @@ Vgremove /dev/vg0			#移除vg
 Pvremove /dev/sdb			#移除pv
 
 ```
+**本地yum源配置步骤：**
+**1、安装好RedHat后，使用root账户登陆系统,**
+*#将安装rhel7所使用的iso光盘挂载到/mnt目录下*
 
+```
+[root@localhost ~]# mount -t iso9660 -o,loop /dev/sr0 /mnt
+```
+*或*
+```
+[root@localhost ~]# mount /dev/cdrom /mnt
+```
+*#注意此处二选一即可（均为单次有效，重启失效）*
+**2、进入/etc/yum.repos.d/目录下，创建rhel7.repo配置文件，并编辑此文件**
+```
+[root@localhost ~]# cd /etc/yum.repos.d/``[root@localhost yum.repos.d]# touch rhel7.repo``[root@localhost yum.repos.d]# vim rhel7.repo
+```
+**3、rhel7.repo文件中的内容如下**
+
+```
+[rehl7]``name=rehl7   #自定义名称``baseurl=file:``///mnt   #本地光盘挂载路径``enabled=1   #启用yum源，0为不启用，1为启用``gpgcheck=0   #检查GPG-KEY，0为不检查，1为检查``：wq   #保存退出
+```
+**4、检查本地Yum源是否成功**
+*#清除Yum源缓存*
+
+```
+[root@localhost yum.repos.d]# yum clean all
+```
+
+*#缓存本地Yum源*
+
+```
+[root@localhost yum.repos.d]# yum makecache
+```
+
+*#列出Yum软件列表*
+
+```
+[root@localhost yum.repos.d]# yum list
+```
+
+***本地配置成功！***
+
+ 
+
+**附：常用Yum命令**
+yum repolist all    *#列出所有仓库*
+yum list all    *#列出仓库中所有软件包*
+yum info <软件包名>    *#查看软件包信息*
+yum install <软件包名>    *#安装软件包*
+yum reinstall <软件包名>   *#重新安装软件包*
+yum update <软件包名>    *#升级软件包*
+yum remove <软件包名>    *#移除软件包*
+yum clean all    *#清除所有仓库缓存*
+yum check-update    *#检查可更新的软件包*
 
