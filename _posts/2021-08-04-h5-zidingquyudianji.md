@@ -13,7 +13,7 @@ categories: H5
 
 ##### 定义图像中可点击区域map
 
-<!-- more -->
+
 
 ```html
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ categories: H5
 <p>点击太阳或其他行星，注意变化：</p>			
 
 <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">		#alt --图像加载失败 显示文字
-
+<!-- more -->
 <map name="planetmap">
   <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
   <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
