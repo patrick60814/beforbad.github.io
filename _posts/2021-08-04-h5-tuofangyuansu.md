@@ -23,7 +23,7 @@ categories: H5
 
 然后，规定当元素被拖动时，会发生什么。
 
-<!-- more -->
+
 
 在上面的例子中，ondragstart 属性调用了一个函数，drag(event)，它规定了被拖动的数据。
 
@@ -38,6 +38,7 @@ function drag(ev)
 }
 
 在这个例子中，数据类型是 "Text"，值是可拖动元素的 id ("drag1")。
+<!-- more -->
 
 **放到何处 - ondragover**
 
