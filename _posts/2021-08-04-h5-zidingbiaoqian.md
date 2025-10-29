@@ -13,7 +13,7 @@ categories: H5
 
 ##### 添加自定义标签
 
-<!-- more -->
+
 
 ```html
 <!DOCTYPE html>
@@ -31,6 +31,7 @@ myHero {
     padding: 50px;
     font-size: 30px;
 }				\\定义新标签
+<!-- more -->
 </style> 
 </head>
 <body>
