@@ -15,6 +15,7 @@ categories: H5
 
 
 
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -31,19 +32,13 @@ myHero {
     padding: 50px;
     font-size: 30px;
 }				\\定义新标签
-<!-- more -->
 </style> 
 </head>
 <body>
- 
 <h1>我的第一个标题</h1>
- 
 <p>我的第一个段落。</p>
- 
 <myHero>我的第一个新元素</myHero>
- 
 </body>
 </html>
-
-
 ```
+<!-- more -->
